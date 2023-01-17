@@ -1,0 +1,26 @@
+databaseName: hammerhead_production
+databaseUsername: retool_internal_user
+dynamicallyQueryable: false
+editPrivilege: false
+environment: production
+host: postgres
+options:
+  authentication: user_password
+  connectionString: ''
+  credentialPrivileges:
+    allowRead: true
+    allowWrite: true
+  queryEditorModes:
+    allowGuiMode: true
+    allowSqlMode: true
+  sshHost: ''
+  sshPassword: ''
+  sshPrivateKeyName: ''
+  sshTunnelEnabled: false
+  sshUsername: ''
+  version: SqlQueryUnified
+port: '5432'
+ssl: false
+type: postgresql
+uuid: 36950f72-dd64-4b74-bb5f-684dfaaf7bc7
+version: 1.0.0

@@ -25,7 +25,6 @@ template:
         ordered: []
     - alwaysShowPaginator: false
     - columnColors:
-        ordered: []
     - columnFrozenAlignments:
         ordered: []
     - allowMultiRowSelect: false

@@ -25,7 +25,33 @@ template:
         ordered: []
     - alwaysShowPaginator: false
     - columnColors:
-        ordered: []
+        ordered:
+          - alpha2Code: ''
+          - callingCodes: ''
+          - alpha3Code: ''
+          - nativeName: ''
+          - translations: ''
+          - latlng: ''
+          - borders: ''
+          - flags: ''
+          - capital: ''
+          - name: ''
+          - flag: ''
+          - area: ''
+          - population: ''
+          - currencies: ''
+          - altSpellings: ''
+          - topLevelDomain: ''
+          - subregion: ''
+          - region: ''
+          - regionalBlocs: ''
+          - cioc: ''
+          - numericCode: ''
+          - independent: ''
+          - timezones: ''
+          - languages: ''
+          - gini: ''
+          - demonym: ''
     - columnFrozenAlignments:
         ordered: []
     - allowMultiRowSelect: false

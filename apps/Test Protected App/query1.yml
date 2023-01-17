@@ -1,14 +1,11 @@
 id: query1
 type: datasource
-subtype: RESTQuery
-resourceName: 88a8fe47-d0af-43c0-8b82-ea905fe2212c
-resourceDisplayName: HTTP REST
+subtype: SqlQueryUnified
+resourceName: 36950f72-dd64-4b74-bb5f-684dfaaf7bc7
+resourceDisplayName: DB
 template:
   ordered:
     - queryRefreshTime: ''
-    - paginationLimit: ''
-    - body: ''
-    - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - servedFromCache: false
     - successMessage: ''
@@ -16,27 +13,15 @@ template:
     - playgroundQuerySaveId: latest
     - resourceNameOverride: ''
     - runWhenModelUpdates: true
-    - paginationPaginationField: ''
-    - headers: ''
-    - showFailureToaster: true
-    - paginationEnabled: false
-    - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - privateParams: []
     - runWhenPageLoadsDelay: ''
-    - data: null
     - importedQueryInputs:
         ordered: []
     - isImported: false
     - showSuccessToaster: true
-    - cacheKeyTtl: ''
-    - requestSentTimestamp: null
-    - cookies: ''
-    - metadata: null
-    - queryRunTime: null
-    - changesetObject: ''
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 
@@ -53,8 +38,6 @@ template:
     - resourceTypeOverride: ''
     - watchedParams: []
     - enableErrorTransformer: false
-    - showLatestVersionUpdatedWarning: false
-    - paginationDataField: ''
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
@@ -69,14 +52,10 @@ template:
 
         return data
     - events: []
-    - queryTimeout: '10000'
-    - requireConfirmation: false
-    - type: GET
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
-    - bodyType: json
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false

@@ -25,21 +25,6 @@ template:
         ordered: []
     - alwaysShowPaginator: false
     - columnColors:
-        ordered:
-          - geoLocation: ''
-          - userId: ''
-          - ipAddress: ''
-          - organizationId: ''
-          - updatedAt: ''
-          - metadata: ''
-          - actionType: ''
-          - queryName: ''
-          - responseTimeMs: ''
-          - resourceName: ''
-          - pageName: ''
-          - userAgent: ''
-          - id: ''
-          - createdAt: ''
     - columnFrozenAlignments:
         ordered: []
     - allowMultiRowSelect: false

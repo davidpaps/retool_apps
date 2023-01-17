@@ -9,5 +9,5 @@ appTemplate:
       serverDepGraphEnabled: false
       useRuntimeV2: false
   rootScreen: null
-  version: 2.105.1
+  version: 2.106.2
   markdownLinkBehavior: auto

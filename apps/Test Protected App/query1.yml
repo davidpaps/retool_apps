@@ -1,13 +1,14 @@
 id: query1
 type: datasource
-subtype: RESTQuery
-resourceName: REST-WithoutResource
+subtype: SqlQueryUnified
+resourceName: 36950f72-dd64-4b74-bb5f-684dfaaf7bc7
+resourceDisplayName: DB
 template:
   ordered:
     - queryRefreshTime: ''
-    - paginationLimit: ''
-    - body: ''
+    - records: ''
     - lastReceivedFromResourceAt: null
+    - databasePasswordOverride: ''
     - queryDisabledMessage: ''
     - servedFromCache: false
     - successMessage: ''
@@ -15,26 +16,31 @@ template:
     - playgroundQuerySaveId: latest
     - resourceNameOverride: ''
     - runWhenModelUpdates: true
-    - paginationPaginationField: ''
-    - headers: ''
     - showFailureToaster: true
-    - paginationEnabled: false
-    - query: http://169.254.169.254/latest/meta-data/
+    - query: select * from audit_trail_events order by id DESC
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - privateParams: []
     - runWhenPageLoadsDelay: ''
+    - warningCodes: []
     - data: null
+    - recordId: ''
     - importedQueryInputs:
         ordered: []
     - isImported: false
     - showSuccessToaster: true
+    - dataArray: []
     - cacheKeyTtl: ''
-    - cookies: ''
+    - filterBy: ''
+    - requestSentTimestamp: null
+    - databaseHostOverride: ''
     - metadata: null
+    - editorMode: sql
     - queryRunTime: null
+    - actionType: ''
     - changesetObject: ''
+    - shouldUseLegacySql: false
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 
@@ -43,6 +49,7 @@ template:
 
         return data.error
     - finished: null
+    - databaseNameOverride: ''
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
@@ -51,13 +58,14 @@ template:
     - resourceTypeOverride: ''
     - watchedParams: []
     - enableErrorTransformer: false
+    - enableBulkUpdates: false
     - showLatestVersionUpdatedWarning: false
-    - paginationDataField: ''
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - bulkUpdatePrimaryKey: ''
     - runWhenPageLoads: false
     - transformer: >-
         // type your code here
@@ -67,14 +75,17 @@ template:
 
         return data
     - events: []
-    - queryTimeout: '10001'
+    - tableName: ''
+    - queryTimeout: '10000'
     - requireConfirmation: false
-    - type: GET
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
-    - bodyType: json
+    - databaseUsernameOverride: ''
+    - shouldEnableBatchQuerying: false
+    - doNotThrowOnNoOp: false
+    - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''

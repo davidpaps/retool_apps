@@ -23,7 +23,7 @@ options:
       - ''
   forwardAllCookies: false
   headers:
-    - - test
+    - - ''
       - ''
   oauth1_consumer_key: ''
   oauth1_consumer_secret: ''
